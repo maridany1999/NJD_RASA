@@ -3,14 +3,13 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- ask_what_you_have
-- say_greet
+- what_you_have
+- greet
 - ask_drink
 - question_club
 entities:
 - bar
 - drink
-- greet
 responses:
   utter_question_club:
   - text: What do you mean? Everything seems normal to me!

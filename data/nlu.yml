@@ -13,6 +13,9 @@ nlu:
     - hello
     - hi
     - hey
+    - Hi
+    - Hello
+    - Hey!
 - intent: what_you_have
   examples: |
     - what can I have?
