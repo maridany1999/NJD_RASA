@@ -8,3 +8,4 @@ nlu:
 - intent: question_club
   examples: |
     - Tell me about this club
+    - Tell me about this place

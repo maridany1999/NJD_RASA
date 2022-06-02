@@ -3,6 +3,7 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- say_gretting
 - question_club
 - greet
 - goodbye
@@ -16,3 +17,7 @@ responses:
   - text: What do you mean? Everything seems normal to me!
   utter_greeting:
   - text: Hey there! What can I get you?
+  utter_club_info:
+  - text: This is the Hearth Beat Club, can i get you anything Detective?
+actions:
+- utter_club_info
