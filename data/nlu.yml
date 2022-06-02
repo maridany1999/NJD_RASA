@@ -5,3 +5,6 @@ nlu:
     - hi
     - Hey!
     - hello
+- intent: question_club
+  examples: |
+    - Tell me about this club
