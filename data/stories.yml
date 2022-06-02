@@ -2,5 +2,5 @@ version: "3.0"
 stories:
 - story: greet
   steps:
-  - intent: greet
+  - intent: say_greet
   - action: utter_greet
