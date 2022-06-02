@@ -5,10 +5,10 @@ nlu:
     - [hi](greet)
     - [Hey](greet)!
     - [hello](greet)
-    - Good morning
-    - Hi
+    - Good [morning](greet)
+    - [Hi](greet)
     - [Hello](greet)
-    - hey
+    - [hey](greet)
 - intent: question_club
   examples: |
     - Tell me about this [club](bar)
@@ -18,12 +18,10 @@ nlu:
     - [where](bar) are we?
 - intent: what_you_have
   examples: |
-    - what can I have?
-    - What do you have?
-- intent: utter_ask_drink
-  examples: |
-    - what will you be [having](drink)?
+    - what can I [have](drink)?
+    - What do you [have](drink)?
 - intent: ask_drink
   examples: |
-    - i want a beer
-    - I want a beer
+    - i want a [beer](drink)
+    - I want a [beer](drink)
+    - Can I get a [drink](drink)?

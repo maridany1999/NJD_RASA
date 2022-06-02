@@ -31,4 +31,6 @@ responses:
   utter_what_you_have:
   - text: Oh! We have all types of drinks and snacks you could ever imagine! So, what do you want?
 actions:
+- utter_greet
 - utter_club_info
+- utter_what_you_have
