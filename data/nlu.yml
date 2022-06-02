@@ -6,6 +6,9 @@ nlu:
     - Good morning
     - Hi
     - Hello
+    - hello
+    - hi
+    - hey
 - intent: question_club
   examples: |
     - Tell me about this [club](bar)
