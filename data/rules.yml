@@ -1,10 +1,10 @@
 version: "3.0"
 rules:
-- rule: greet
+- rule: say_greet
   steps:
   - intent: say_greet
   - action: utter_greet
-- rule: what_you_have
+- rule: ask_what_you_have
   steps:
   - intent: ask_what_you_have
   - action: utter_what_you_have
