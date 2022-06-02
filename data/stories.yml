@@ -10,7 +10,7 @@ stories:
   - action: utter_greet
   - intent: question_club
   - action: utter_club_info
-- story: Test
+- story: greet_and_what_you_have
   steps:
   - intent: say_greet
   - action: utter_greet

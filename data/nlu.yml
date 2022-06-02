@@ -8,17 +8,19 @@ nlu:
     - Good morning
     - Hi
     - Hello
+    - hey
 - intent: question_club
   examples: |
     - Tell me about this club
     - Tell me about this [place](bar)
     - What is this [place](bar)?
-    - what is this place?
-    - where are we?
+    - what is this [place](bar)?
+    - [where](bar) are we?
 - intent: what_you_have
   examples: |
     - what can I have?
 - intent: utter_ask_drink
   examples: |
-    - what will you be having?
+    - what will you be [having](drink)?
     - i want a beer
+    - I want a beer

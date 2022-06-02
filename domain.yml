@@ -18,6 +18,7 @@ intents:
 entities:
 - place
 - bar
+- drink
 responses:
   utter_question_club:
   - text: What do you mean? Everything seems normal to me!
