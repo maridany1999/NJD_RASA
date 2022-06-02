@@ -4,7 +4,7 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: what_you_have
+  - intent: question_club
   - action: utter_club_info
 - story: greet_and_what_you_have
   steps:
