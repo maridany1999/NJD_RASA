@@ -1,6 +1,6 @@
 version: "3.0"
 rules:
-- rule: Greeting
+- rule: greet
   steps:
   - intent: say_gretting
   - action: utter_greeting
