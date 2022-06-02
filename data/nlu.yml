@@ -1,14 +1,5 @@
 version: "3.0"
 nlu:
-- intent: greet
-  examples: |
-    - Hey!
-    - Good morning
-    - Hi
-    - Hello
-    - hello
-    - hi
-    - hey
 - intent: question_club
   examples: |
     - Tell me about this [club](bar)
@@ -16,6 +7,12 @@ nlu:
     - What is this [place](bar)?
     - what is this place?
     - where are we?
+- intent: greet
+  examples: |
+    - Good morning
+    - hello
+    - hi
+    - hey
 - intent: what_you_have
   examples: |
     - what can I have?
