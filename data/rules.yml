@@ -4,3 +4,7 @@ rules:
   steps:
   - intent: say_greet
   - action: utter_greet
+- rule: Ask what you have
+  steps:
+  - intent: what_you_have
+  - action: utter_what_you_have

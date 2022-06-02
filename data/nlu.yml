@@ -5,7 +5,13 @@ nlu:
     - hi
     - Hey!
     - hello
+    - Good morning
+    - Hi
+    - Hello
 - intent: question_club
   examples: |
     - Tell me about this club
     - Tell me about this place
+    - What is this [place](bar)?
+    - what is this place?
+    - where are we?

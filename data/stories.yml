@@ -4,3 +4,27 @@ stories:
   steps:
   - intent: say_greet
   - action: utter_greet
+- story: Question club
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: question_club
+  - action: utter_club_info
+- story: Test
+  steps:
+  - intent: say_greet
+  - action: utter_greet
+  - intent: what_you_have
+  - action: utter_what_you_have
+- story: Test
+  steps:
+  - intent: say_greet
+  - action: utter_greet
+  - intent: what_you_have
+  - action: utter_what_you_have
+- story: Test
+  steps:
+  - intent: say_greet
+  - action: utter_greet
+  - intent: what_you_have
+  - action: utter_what_you_have
