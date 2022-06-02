@@ -10,6 +10,7 @@ intents:
 entities:
 - bar
 - drink
+- beer
 responses:
   utter_question_club:
   - text: What do you mean? Everything seems normal to me!
@@ -22,5 +23,4 @@ responses:
   - text: Oh! We have all types of drinks and snacks you could ever imagine! So, what do you want?
 actions:
 - utter_greet
-- utter_club_info
 - utter_what_you_have

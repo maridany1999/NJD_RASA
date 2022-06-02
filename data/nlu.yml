@@ -22,6 +22,5 @@ nlu:
     - What do you have?
 - intent: ask_drink
   examples: |
-    - i want a [beer](drink)
-    - I want a [beer](drink)
+    - i want a [beer](beer)
     - Can I get a drink?
