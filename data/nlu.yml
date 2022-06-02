@@ -19,6 +19,7 @@ nlu:
 - intent: what_you_have
   examples: |
     - what can I have?
+    - What do you have?
 - intent: utter_ask_drink
   examples: |
     - what will you be [having](drink)?
