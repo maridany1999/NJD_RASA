@@ -6,6 +6,7 @@ intents:
 - say_gretting
 - say_greet
 - what_you_have
+- utter_ask_drink
 - question_club
 - greet
 - goodbye
@@ -24,5 +25,7 @@ responses:
   - text: Hey there! What can I get you?
   utter_club_info:
   - text: This is the Hearth Beat Club, can i get you anything Detective?
+  utter_what_you_have:
+  - text: Oh! We have all types of drinks and snacks you could ever imagine! So, what do you want?
 actions:
 - utter_club_info
