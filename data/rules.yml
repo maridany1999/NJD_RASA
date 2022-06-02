@@ -2,5 +2,5 @@ version: "3.0"
 rules:
 - rule: greet
   steps:
-  - intent: say_gretting
-  - action: utter_greeting
+  - intent: say_greet
+  - action: utter_greet
