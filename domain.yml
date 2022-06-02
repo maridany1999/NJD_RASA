@@ -14,3 +14,5 @@ intents:
 responses:
   utter_question_club:
   - text: What do you mean? Everything seems normal to me!
+  utter_greeting:
+  - text: Hey there! What can I get you?
