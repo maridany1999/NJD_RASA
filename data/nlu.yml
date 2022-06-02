@@ -2,26 +2,23 @@ version: "3.0"
 nlu:
 - intent: greet
   examples: |
-    - [hi](greet)
-    - [Hey](greet)!
-    - [hello](greet)
-    - Good [morning](greet)
-    - [Hi](greet)
-    - [Hello](greet)
-    - [hey](greet)
+    - Hey!
+    - Good morning
+    - Hi
+    - Hello
 - intent: question_club
   examples: |
     - Tell me about this [club](bar)
     - Tell me about this [place](bar)
     - What is this [place](bar)?
-    - what is this [place](bar)?
-    - [where](bar) are we?
+    - what is this place?
+    - where are we?
 - intent: what_you_have
   examples: |
-    - what can I [have](drink)?
-    - What do you [have](drink)?
+    - what can I have?
+    - What do you have?
 - intent: ask_drink
   examples: |
     - i want a [beer](drink)
     - I want a [beer](drink)
-    - Can I get a [drink](drink)?
+    - Can I get a drink?
