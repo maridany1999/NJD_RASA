@@ -23,5 +23,7 @@ nlu:
 - intent: utter_ask_drink
   examples: |
     - what will you be [having](drink)?
+- intent: ask_drink
+  examples: |
     - i want a beer
     - I want a beer
