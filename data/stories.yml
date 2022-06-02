@@ -16,3 +16,12 @@ stories:
   - action: utter_greet
   - intent: what_you_have
   - action: utter_what_you_have
+- story: Story from Conversation ID 25e6d758027f4788bc8ec27fb8b086ca
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: greet
+  - action: utter_greet
+  - intent: question_club
+  - action: utter_greet
+  - intent: question_club

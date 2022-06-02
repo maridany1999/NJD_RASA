@@ -6,7 +6,7 @@ intents:
 - say_gretting
 - say_greet
 - what_you_have
-- utter_ask_drink
+- ask_drink
 - question_club
 - greet
 - goodbye
@@ -19,9 +19,11 @@ entities:
 - place
 - bar
 - drink
+- greet
 responses:
   utter_question_club:
   - text: What do you mean? Everything seems normal to me!
+  - text: Just another day Detective
   utter_greet:
   - text: Hey there! What can I get you?
   utter_club_info:

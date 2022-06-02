@@ -2,16 +2,16 @@ version: "3.0"
 nlu:
 - intent: greet
   examples: |
-    - hi
-    - Hey!
-    - hello
+    - [hi](greet)
+    - [Hey](greet)!
+    - [hello](greet)
     - Good morning
     - Hi
-    - Hello
+    - [Hello](greet)
     - hey
 - intent: question_club
   examples: |
-    - Tell me about this club
+    - Tell me about this [club](bar)
     - Tell me about this [place](bar)
     - What is this [place](bar)?
     - what is this [place](bar)?
