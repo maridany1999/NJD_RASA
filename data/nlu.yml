@@ -24,4 +24,3 @@ nlu:
   examples: |
     - i want a [beer](beer)
     - Can I get a drink?
-    - I want a beer
