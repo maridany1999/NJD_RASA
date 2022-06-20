@@ -9,7 +9,6 @@ intents:
 - question_club
 entities:
 - bar
-- drink
 - beer
 responses:
   utter_question_club:
@@ -24,3 +23,5 @@ responses:
 actions:
 - utter_greet
 - utter_what_you_have
+- utter_club_info
+- utter_question_club
