@@ -3,3 +3,21 @@ nlu:
 - intent: greet
   examples: |
     - hi
+    - Hello
+    - [hello](greet)
+    - hey
+    - Good morning
+    - Hi
+    - Hey!
+- intent: question_club
+  examples: |
+    - Tell me about this place
+    - where are we?
+    - what is this place?
+    - Tell me about this club
+- intent: utter_ask_drink
+  examples: |
+    - i want a beer
+    - Can I get a drink?
+    - I want a beer
+    - what can I have?

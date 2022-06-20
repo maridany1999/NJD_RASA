@@ -5,12 +5,7 @@ session_config:
 intents:
 - question_club
 - greet
-- goodbye
-- affirm
-- deny
-- mood_great
-- mood_unhappy
-- bot_challenge
+- utter_ask_drink
 responses:
   utter_question_club:
   - text: What do you mean? Everything seems normal to me!
