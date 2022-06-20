@@ -3,3 +3,6 @@ nlu:
 - intent: greet
   examples: |
     - Hey, there!
+- intent: goodbye
+  examples: |
+    - Goodbye
