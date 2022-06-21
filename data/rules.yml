@@ -1,13 +1,26 @@
-version: "3.1"
-
+version: "3.0"
 rules:
-
-- rule: Say goodbye anytime the user says goodbye
+- rule: club suspicious
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
-
-- rule: Say 'I am a bot' anytime the user challenges
+  - intent: club_suspicious
+  - action: utter_club_status
+- rule: lucy_in
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: accuse_lucy
+  - action: utter_lucy_in
+- rule: thomas_in
+  steps:
+  - intent: accuse_thomas
+  - action: utter_thomas_in
+- rule: tobias_in
+  steps:
+  - intent: accuse_tobias
+  - action: utter_tobias_in
+- rule: kaine_in
+  steps:
+  - intent: accuse_kaine
+  - action: utter_kaine_in
+- rule: calli_in
+  steps:
+  - intent: accuse_calli
+  - action: utter_calli_in

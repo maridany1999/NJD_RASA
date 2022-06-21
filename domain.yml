@@ -11,6 +11,29 @@ intents:
 - mood_great
 - mood_unhappy
 - bot_challenge
+- order_drink
+- question_josh
+- affirmative
+- question_calli
+- thanks
+- compliment
+- frustrated
+- good_mood
+- how_are_you
+- question_kaine
+- utter_ask_drink
+- question_club_desc
+- pleased
+- Ask_about_me
+- accuse_tobias
+- accuse_kaine
+- accuse_calli
+- accuse_lucy
+- accuse_thomas
+- present
+- club_suspicious
+entities:
+- greet
 responses:
   utter_question_club:
   - text: What do you mean? Everything seems normal to me!
@@ -27,3 +50,19 @@ responses:
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
+  utter_club_status:
+  - text: Oh yeah, you came in a bad day, I think the power is out... And we didn't finish the clean up.
+  utter_calli_in:
+  - text: No, no, no, I know Calli since she was little, she would never do ANYTHING to hurt the club.
+  utter_tobias_in:
+  - text: You're getting ahead of yourself detective, he's a 12 year old and a good one.
+  utter_kaine_in:
+  - text: I know he looks weird, but he wouldn't hurt a fly, or my name isn't Josh Black.
+  utter_thomas_in:
+  - text: Hey, we're buddies but I won't let you badmouth Mr. Thomas, he's a good man!
+  utter_lucy_in:
+  - text: No way josé, where would she even find the time? She's always studying or working.
+  utter_who_are_you:
+  - text: and you are?
+  utter_nice_to_meet_you:
+  - text: Nice to meet you, I think we'll be good friends.

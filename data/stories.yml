@@ -4,3 +4,10 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+- story: meeting
+  steps:
+  - intent: question_josh
+  - action: utter_question_josh
+  - action: utter_who_are_you
+  - intent: present
+  - action: utter_nice_to_meet_you

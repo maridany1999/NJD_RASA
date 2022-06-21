@@ -3,6 +3,105 @@ nlu:
 - intent: greet
   examples: |
     - Hey, there!
+    - [hello](greet)
+    - [Hello](greet)
+    - heyo
 - intent: goodbye
   examples: |
     - Goodbye
+    - goodbye
+    - bye
+    - well bye then
+- intent: order_drink
+  examples: |
+    - A beer, please
+    - vodka, please
+    - I can have a glass of vodka, then
+    - Can I have a Beer, Please?
+    - beer
+    - just a beer
+    - a gin please
+    - beer me
+    - a nice cold beer
+    - a rum please
+    - you could get me the rum and coke
+    - a whisky cola would be nice
+    - vodka
+- intent: question_josh
+  examples: |
+    - I'm asking about you, Josh
+    - What about you Josh, what can you tell me about yourself?
+- intent: affirmative
+  examples: |
+    - It's Ok
+    - yes
+    - ok ok
+    - yeah
+    - hell yeah
+    - yeah I can see that
+    - you know it
+    - ahahah yeah I can see that
+    - alright
+- intent: question_calli
+  examples: |
+    - Do you know something about Callie?
+- intent: thanks
+  examples: |
+    - Thank you
+    - thanks
+    - thank you very much
+    - thank you so much
+- intent: compliment
+  examples: |
+    - you're cool josh
+- intent: frustrated
+  examples: |
+    - not what I said dumbo
+    - not what I asked but ok
+    - bruh for real
+- intent: good_mood
+  examples: |
+    - I'm doing fine thanks
+- intent: how_are_you
+  examples: |
+    - so how are you man?
+- intent: question_kaine
+  examples: |
+    - who's Kaine?
+- intent: utter_ask_drink
+  examples: |
+    - yo get me a drink
+    - hmmm a rum and coke
+    - a drink
+    - a drink!
+- intent: question_club_desc
+  examples: |
+    - so what can you tell me about this club?
+- intent: pleased
+  examples: |
+    - Oh, that's interesting
+- intent: Ask_about_me
+  examples: |
+    - I´m detective
+- intent: accuse_tobias
+  examples: |
+    - That tobias kid, I don't trust him
+- intent: accuse_kaine
+  examples: |
+    - Kaine seems suspicious
+- intent: accuse_calli
+  examples: |
+    - I think Calli might be involved with the "power outtages"
+- intent: accuse_lucy
+  examples: |
+    - I think Lucy isn't what she looks like
+- intent: accuse_thomas
+  examples: |
+    - Thomas is guilty of something I just have to find what
+- intent: present
+  examples: |
+    - I'm Allen Welsch, senior detective with the central police
+- intent: club_suspicious
+  examples: |
+    - Why is this club all burned up?
+    - This club is a mess, is it always like this?
