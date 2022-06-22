@@ -37,6 +37,10 @@ intents:
 - question_tobias
 - question_lucy
 - get_char
+- nlu_fallback
+- club_safe
+- attacked
+- ask_josh_positive
 entities:
 - greet
 responses:
@@ -95,7 +99,7 @@ responses:
   - text: This place opened its doors in April of 2092, trust me, I was there, helped built these walls, in fact I think me and Thomas are the only ones left from those times...
   - text: Well if my memory is not playing tricks on me, I'd say April of 2092! I can remember like it was yesterday! Those were the best days of my life.
   utter_question_club_desc:
-  - text: This sir is the greatest club, this side of the channel. We have greatest beer, the most talented musician, the best mood, and of course the most handsome bartender.
+  - text: This sir is the greatest club, this side of the channel. We have greatest beer, the most talented musicians, the best mood, and of course the most handsome bartender.
   utter_thanks_res:
   - text: No problem, always a pleasure.
   - text: That's why I'm here!
@@ -112,3 +116,9 @@ responses:
   - text: Of course, go ahead.
   utter_get_char:
   - text: Oh I don't know, I'm not supposed to leave the bar during work hours.
+  utter_safe:
+  - text: Safe as can be, I've worked here for over 38 years and we've never had so much as a scuffle.
+  utter_attacked:
+  - text: Oh I'm terribly sorry to hear that! I'll get you a drink on the house!
+  utter_yes_I_am:
+  - text: Yes I am.

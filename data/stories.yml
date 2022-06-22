@@ -72,6 +72,54 @@ stories:
   - action: utter_check_drink
   - intent: order_drink
   - action: utter_drink
+- story: Story from Conversation ID a093966714fa459fad60b729e1f43132
+  steps:
+  - intent: greet
+  - action: utter_greeting
+  - intent: utter_ask_drink
+  - action: utter_check_drink
+  - intent: order_drink
+  - action: utter_drink
+  - intent: thanks
+  - action: utter_thanks_res
+  - intent: question_josh
+  - action: utter_question_josh
+  - intent: affirmative
+  - action: utter_agree_positive
+  - intent: ask_question
+  - action: utter_answer
+- story: Story from Conversation ID 2ee23481fa7e42339f5f7f5fc951f423
+  steps:
+  - intent: greet
+    entities:
+    - greet: hello
+  - action: utter_greeting
+  - intent: affirmative
+  - action: utter_check_drink
+  - intent: order_drink
+  - action: utter_drink
+  - intent: question_club_desc
+  - action: utter_question_club_desc
+  - intent: question_club_desc
+  - action: utter_question_club_desc
+  - intent: club_suspicious
+  - action: utter_club_status
+  - intent: nlu_fallback
+  - action: action_default_fallback
+- story: Story from Conversation ID e66e0d86f6cf4db28ed1aeda11ad9048
+  steps:
+  - intent: ask_question
+    entities:
+    - greet: hello
+  - action: utter_answer
+  - intent: question_josh
+  - action: utter_question_josh
+  - intent: accuse_kaine
+  - action: utter_kaine_in
+  - intent: club_suspicious
+  - action: utter_club_status
+  - intent: affirmative
+  - action: utter_agree_positive
 rules:
 - rule: club age
   steps:

@@ -44,3 +44,15 @@ rules:
   steps:
   - intent: get_char
   - action: utter_get_char
+- rule: safe
+  steps:
+  - intent: club_safe
+  - action: utter_safe
+- rule: josh_ocu
+  steps:
+  - intent: ask_josh_positive
+  - action: utter_yes_I_am
+- rule: attacked
+  steps:
+  - intent: attacked
+  - action: utter_attacked
