@@ -6,11 +6,8 @@ intents:
 - question_club
 - greet
 - goodbye
-- affirm
-- deny
 - mood_great
 - mood_unhappy
-- bot_challenge
 - order_drink
 - question_josh
 - affirmative
@@ -18,13 +15,11 @@ intents:
 - thanks
 - compliment
 - frustrated
-- good_mood
 - how_are_you
 - question_kaine
 - utter_ask_drink
 - question_club_desc
 - pleased
-- Ask_about_me
 - accuse_tobias
 - accuse_kaine
 - accuse_calli
@@ -32,24 +27,18 @@ intents:
 - accuse_thomas
 - present
 - club_suspicious
+- question_thomas
+- question_club_age
+- negative
+- question_tobias
+- question_lucy
 entities:
 - greet
 responses:
   utter_question_club:
   - text: What do you mean? Everything seems normal to me!
-  utter_greet:
-  - text: Hey! How are you?
-  utter_cheer_up:
-  - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 'Here is something to cheer you up:'
-  utter_did_that_help:
-  - text: Did that help you?
-  utter_happy:
-  - text: Great, carry on!
   utter_goodbye:
   - text: Bye
-  utter_iamabot:
-  - text: I am a bot, powered by Rasa.
   utter_club_status:
   - text: Oh yeah, you came in a bad day, I think the power is out... And we didn't finish the clean up.
   utter_calli_in:
@@ -66,3 +55,5 @@ responses:
   - text: and you are?
   utter_nice_to_meet_you:
   - text: Nice to meet you, I think we'll be good friends.
+  utter_thomas_where:
+  - text: He should be in his office, he's been a bit more reserved lately.

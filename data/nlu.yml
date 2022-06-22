@@ -6,6 +6,8 @@ nlu:
     - [hello](greet)
     - [Hello](greet)
     - heyo
+    - Heyo
+    - hiii
 - intent: goodbye
   examples: |
     - Goodbye
@@ -27,6 +29,9 @@ nlu:
     - you could get me the rum and coke
     - a whisky cola would be nice
     - vodka
+    - Nevermind, bring me a shot of Absinthe instead
+    - Just bring me a Triple Sec
+    - Hey, can I order a Triple Sec?
 - intent: question_josh
   examples: |
     - I'm asking about you, Josh
@@ -59,9 +64,11 @@ nlu:
     - not what I said dumbo
     - not what I asked but ok
     - bruh for real
-- intent: good_mood
+- intent: mood_great
   examples: |
     - I'm doing fine thanks
+    - I'm feeling good
+    - I'm doing great
 - intent: how_are_you
   examples: |
     - so how are you man?
@@ -80,9 +87,6 @@ nlu:
 - intent: pleased
   examples: |
     - Oh, that's interesting
-- intent: Ask_about_me
-  examples: |
-    - I´m detective
 - intent: accuse_tobias
   examples: |
     - That tobias kid, I don't trust him
@@ -105,3 +109,13 @@ nlu:
   examples: |
     - Why is this club all burned up?
     - This club is a mess, is it always like this?
+    - Is the club vibe weird or is it just me?
+- intent: mood_unhappy
+  examples: |
+    - I'm kind of not in the mood of talking today
+    - I'm feeling terrible
+    - I had the worst day
+- intent: question_club_age
+  examples: |
+    - How old is this club?
+    - How long ago was this club build?

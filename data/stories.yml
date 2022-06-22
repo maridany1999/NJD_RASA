@@ -1,13 +1,119 @@
 version: "3.0"
 stories:
-- story: Untitled Story
+- story: GreetStory
   steps:
   - intent: greet
-  - action: utter_greet
-- story: meeting
+  - action: utter_greeting
+- story: DrinkStory
+  steps:
+  - intent: greet
+  - action: utter_greeting
+  - intent: utter_ask_drink
+  - action: utter_check_drink
+  - intent: order_drink
+  - action: utter_drink
+- story: ClubStory
+  steps:
+  - intent: question_club
+  - action: utter_question_club
+  - intent: question_club_desc
+  - action: utter_question_club_desc
+  - intent: question_club_age
+  - action: utter_club_age
+  - intent: question_thomas
+  - action: utter_who_is_thomas
+- story: Calli
+  steps:
+  - intent: question_calli
+  - action: utter_question_calli
+  - intent: negative
+  - action: utter_agree_negative
+- story: QuickDrink
+  steps:
+  - intent: greet
+  - action: utter_greeting
+  - intent: order_drink
+  - action: utter_drink
+- story: AltDrink
+  steps:
+  - intent: greet
+  - action: utter_greeting
+  - intent: affirmative
+  - action: utter_check_drink
+  - intent: order_drink
+  - action: utter_drink
+- story: Frustrated User
+  steps:
+  - intent: frustrated
+  - action: utter_frustrated
+  - intent: affirmative
+  - action: utter_agree_positive
+- story: Agree
+  steps:
+  - intent: affirmative
+  - action: utter_agree_positive
+- story: Good mood
+  steps:
+  - intent: how_are_you
+  - action: utter_mood
+  - intent: mood_great
+  - action: utter_good_mood
+  - intent: affirmative
+  - action: utter_check_drink
+  - intent: order_drink
+  - action: utter_drink
+- story: Bad mood
+  steps:
+  - intent: how_are_you
+  - action: utter_mood
+  - intent: mood_unhappy
+  - action: utter_bad_mood
+  - intent: affirmative
+  - action: utter_check_drink
+  - intent: order_drink
+  - action: utter_drink
+rules:
+- rule: club age
+  steps:
+  - intent: question_club_age
+  - action: utter_club_age
+- rule: thomas
+  steps:
+  - intent: question_thomas
+  - action: utter_who_is_thomas
+- rule: thanks_rule
+  steps:
+  - intent: thanks
+  - action: utter_thanks_res
+- rule: josh_presentation
   steps:
   - intent: question_josh
   - action: utter_question_josh
-  - action: utter_who_are_you
-  - intent: present
-  - action: utter_nice_to_meet_you
+- rule: calli
+  steps:
+  - intent: question_calli
+  - action: utter_question_calli
+- rule: tobias
+  steps:
+  - intent: question_tobias
+  - action: utter_question_tobias
+- rule: kaine
+  steps:
+  - intent: question_kaine
+  - action: utter_question_kaine
+- rule: lucy
+  steps:
+  - intent: question_lucy
+  - action: utter_question_lucy
+- rule: check drink
+  steps:
+  - intent: utter_ask_drink
+  - action: utter_check_drink
+- rule: Bye
+  steps:
+  - intent: goodbye
+  - action: utter_bye
+- rule: compliment
+  steps:
+  - intent: compliment
+  - action: utter_blush
