@@ -81,6 +81,8 @@ nlu:
     - whiskey
     - wisky
     - Sure, a Pisang Ambon, please
+    - a nice cold vodka
+    - a super bock beer
 - intent: question_josh
   examples: |
     - I'm asking about you, Josh
@@ -115,6 +117,7 @@ nlu:
     - that's ok
     - that is fine
     - Sure
+    - hell to the yes
 - intent: question_calli
   examples: |
     - Do you know something about Callie?
@@ -139,6 +142,7 @@ nlu:
     - cool cool cool
     - you're the best
     - Josh nice to see you again
+    - I love you man
 - intent: frustrated
   examples: |
     - not what I said dumbo
@@ -193,6 +197,7 @@ nlu:
 - intent: pleased
   examples: |
     - Oh, that's interesting
+    - hmmm delicious
 - intent: accuse_tobias
   examples: |
     - That tobias kid, I don't trust him
@@ -332,3 +337,7 @@ nlu:
     - are you the bartender?
     - Are you an employee of this club?
     - I suppose you work for the Hearh Beat club, right?
+- intent: negative
+  examples: |
+    - nah
+    - I won't be having nothing
