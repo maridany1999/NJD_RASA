@@ -122,3 +122,5 @@ responses:
   - text: Oh I'm terribly sorry to hear that! I'll get you a drink on the house!
   utter_yes_I_am:
   - text: Yes I am.
+  utter_pleased:
+  - text: Glad you liked it!

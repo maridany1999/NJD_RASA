@@ -56,3 +56,7 @@ rules:
   steps:
   - intent: attacked
   - action: utter_attacked
+- rule: good drink
+  steps:
+  - intent: pleased
+  - action: utter_pleased

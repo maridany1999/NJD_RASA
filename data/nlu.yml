@@ -131,6 +131,7 @@ nlu:
     - i wouldn't mind one
     - yes sir
     - always
+    - hell yes
 - intent: question_calli
   examples: |
     - Do you know something about Callie?
@@ -203,6 +204,7 @@ nlu:
     - give me something strong to drink
     - i need something to drink
     - Get me something to drink, anything is fine
+    - you could get me a drink
 - intent: question_club_desc
   examples: |
     - so what can you tell me about this club?
@@ -218,6 +220,7 @@ nlu:
     - hmm this whisky is nice and smooth
     - hmm nice and cold
     - hmm this is some good gin
+    - hmm nice and smooth
 - intent: accuse_tobias
   examples: |
     - That tobias kid, I don't trust him
