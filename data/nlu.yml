@@ -22,6 +22,8 @@ nlu:
     - Howdy
     - Hiya
     - [Hello](greet) there
+    - hi there
+    - [hello](greet) buddy
 - intent: goodbye
   examples: |
     - Goodbye
@@ -86,6 +88,8 @@ nlu:
     - a nice cold vodka
     - a super bock beer
     - get me a whisky or something
+    - hmmm maybe a beer
+    - a whisky, on the rocks
 - intent: question_josh
   examples: |
     - I'm asking about you, Josh
@@ -125,6 +129,8 @@ nlu:
     - interesting
     - very well
     - i wouldn't mind one
+    - yes sir
+    - always
 - intent: question_calli
   examples: |
     - Do you know something about Callie?
@@ -143,6 +149,7 @@ nlu:
     - Thank you!
     - oh thanks
     - much appreciated
+    - thank you
 - intent: compliment
   examples: |
     - you're cool josh
@@ -151,6 +158,7 @@ nlu:
     - you're the best
     - Josh nice to see you again
     - I love you man
+    - you're pretty cool Josh
 - intent: frustrated
   examples: |
     - not what I said dumbo
@@ -207,6 +215,9 @@ nlu:
   examples: |
     - Oh, that's interesting
     - hmmm delicious
+    - hmm this whisky is nice and smooth
+    - hmm nice and cold
+    - hmm this is some good gin
 - intent: accuse_tobias
   examples: |
     - That tobias kid, I don't trust him
@@ -228,6 +239,7 @@ nlu:
     - I have some questions regarding mister Richardson
     - Can you tell me some information regarding Thomas?
     - Thomas seems to be behind some shady stuff
+    - oh so you've never seen him doing any shady business have you?
 - intent: present
   examples: |
     - I'm Allen Welsch, senior detective with the central police
@@ -280,6 +292,7 @@ nlu:
     - what's your name?
     - i want to know your name?
     - do you mind telling me your name?
+    - excuse me what's your name again?
 - intent: thomas_where
   examples: |
     - where is Thomas?
@@ -309,6 +322,7 @@ nlu:
     - I would like to know more about the man who owns this club
     - Do you know about a man named Thomas RIchardson?
     - interesting, can you tell me about the one responsible for this club?
+    - ahahah, tell me, what do you know about Thomas?
 - intent: ask_question
   examples: |
     - Can I ask you something?
