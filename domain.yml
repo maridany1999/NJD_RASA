@@ -36,9 +36,7 @@ entities:
 - greet
 responses:
   utter_question_club:
-  - text: What do you mean? Everything seems normal to me!
-  utter_goodbye:
-  - text: Bye
+  - text: You're in Hearth Beat of course, my personal favourite place on earth!
   utter_club_status:
   - text: Oh yeah, you came in a bad day, I think the power is out... And we didn't finish the clean up.
   utter_calli_in:
@@ -57,3 +55,47 @@ responses:
   - text: Nice to meet you, I think we'll be good friends.
   utter_thomas_where:
   - text: He should be in his office, he's been a bit more reserved lately.
+  utter_frustrated:
+  - text: Sorry sometimes I get a bit confused, comes with the age you know?
+  utter_mood:
+  - text: Same old same old, me and my glasses, how about you?
+  utter_good_mood:
+  - text: Oh great, can I get you a drink to go with that?
+  utter_bad_mood:
+  - text: Oh too bad, need a drink to drown the blues?
+  utter_blush:
+  - text: Oh you're gonna make me blush.
+  utter_bye:
+  - text: Goodbye, until next time.
+  - text: Bye, see you soon I hope.
+  utter_check_drink:
+  - text: And what will you be having tonight?
+  utter_agree_positive:
+  - text: yeah
+  utter_agree_negative:
+  - text: yeah me neither.
+  utter_question_kaine:
+  - text: He's a weird fella, but honestly a blast to be around, do you remember The Soul King from a few years back? That's him, he quit and now teaches the kids here, apparently he and Josh met in college and were long time buddies.
+  utter_question_lucy:
+  - text: Lucy is our up and comer, she's been in the training program since she was little and has a beautifull voice, personally I think she'll be the next Calli.
+  utter_question_tobias:
+  - text: He's Thomas' kid, can't you see the resemblance, great kid always a light in the dark around these parts.
+  utter_question_calli:
+  - text: Calli is our shining star, business isn't what it used to be around here, she used to get every room filled to the brink, very talented, can you believe she grew as street urchin before being taken in by the Richardson's?
+  utter_question_josh:
+  - text: My name is Josh Black, I'm the bartender here at this fine club, and a great listener too, love me a good story.
+  utter_who_is_thomas:
+  - text: Thomas is my boss and one of my oldest friends, his family built and owned this bar, and I was fortunate enough to be taken under their wing after the construction project ended, very stoic and hard working family. All dear friends of mine.
+  utter_club_age:
+  - text: This place opened its doors in April of 2092, trust me, I was there, helped built these walls, in fact I think me and Thomas are the only ones left from those times...
+  - text: Well if my memory is not playing tricks on me, I'd say April of 2092! I can remember like it was yesterday! Those were the best days of my life.
+  utter_question_club_desc:
+  - text: This sir is the greatest club, this side of the channel. We have greatest beer, the most talented musician, the best mood, and of course the most handsome bartender.
+  utter_thanks_res:
+  - text: No problem, always a pleasure.
+  - text: That's why I'm here!
+  utter_drink:
+  - text: Yes sir right away.
+  utter_greeting:
+  - text: Hey there! What can I get you?
+  - text: Hello detective, looking for a drink?
