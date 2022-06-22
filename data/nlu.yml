@@ -119,3 +119,12 @@ nlu:
   examples: |
     - How old is this club?
     - How long ago was this club build?
+- intent: question_age
+  examples: |
+    - How old are you?
+- intent: ask_name
+  examples: |
+    - what is your name?
+- intent: thomas_where
+  examples: |
+    - where is Thomas?

@@ -3,6 +3,9 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- question_age
+- ask_name
+- thomas_where
 - question_club
 - greet
 - goodbye
@@ -99,3 +102,7 @@ responses:
   utter_greeting:
   - text: Hey there! What can I get you?
   - text: Hello detective, looking for a drink?
+  utter_age:
+  - text: I am 59 years young!
+  utter_name:
+  - text: My name is Josh Black, bartender at your service.

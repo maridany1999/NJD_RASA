@@ -24,3 +24,15 @@ rules:
   steps:
   - intent: accuse_calli
   - action: utter_calli_in
+- rule: josh_age
+  steps:
+  - intent: question_age
+  - action: utter_age
+- rule: josh_name
+  steps:
+  - intent: ask_name
+  - action: utter_name
+- rule: where_thomas
+  steps:
+  - intent: thomas_where
+  - action: utter_thomas_where
