@@ -21,6 +21,7 @@ nlu:
     - [Hello](greet) are you an employee of the Hearh Beat club?
     - Howdy
     - Hiya
+    - [Hello](greet) there
 - intent: goodbye
   examples: |
     - Goodbye
@@ -31,6 +32,7 @@ nlu:
     - hmm ok bye
     - Ok, see you around
     - Well, bye, thanks for the drink
+    - well bue then
 - intent: order_drink
   examples: |
     - A beer, please
@@ -83,6 +85,7 @@ nlu:
     - Sure, a Pisang Ambon, please
     - a nice cold vodka
     - a super bock beer
+    - get me a whisky or something
 - intent: question_josh
   examples: |
     - I'm asking about you, Josh
@@ -100,6 +103,7 @@ nlu:
     - I supose you are the one responsible for the bar?
     - tell me are you a member of this club?
     - Who are you
+    - and what about you?
 - intent: affirmative
   examples: |
     - It's Ok
@@ -118,6 +122,9 @@ nlu:
     - that is fine
     - Sure
     - hell to the yes
+    - interesting
+    - very well
+    - i wouldn't mind one
 - intent: question_calli
   examples: |
     - Do you know something about Callie?
@@ -126,6 +133,7 @@ nlu:
     - calli?
     - The singer Calli seems to be very popular around here, can you tell me about her?
     - What can you tell me about Calli?
+    - can you tell me more about Calli?
 - intent: thanks
   examples: |
     - Thank you
@@ -169,6 +177,7 @@ nlu:
     - how do you do?
     - what you doing?
     - How are you?
+    - how are you?
 - intent: question_kaine
   examples: |
     - who's Kaine?
@@ -218,6 +227,7 @@ nlu:
     - Thomas is guilty of something I just have to find what
     - I have some questions regarding mister Richardson
     - Can you tell me some information regarding Thomas?
+    - Thomas seems to be behind some shady stuff
 - intent: present
   examples: |
     - I'm Allen Welsch, senior detective with the central police
@@ -226,6 +236,9 @@ nlu:
     - [Hello](greet) sir, i am detective Allen Welsh, police detective
     - The name's Allen Welsh i am here on oficial police business, please identify yourself
     - [Hello](greet), i am Detective Allen Welsh on oficial police investigation
+    - Im detective Allen Welsh
+    - [Hello](greet), i am Detetive Allen Welsh on oficial police investigation
+    - [hello](greet), I am Detetive Allen Welsh on oficial police investigation
 - intent: club_suspicious
   examples: |
     - Why is this club all burned up?
@@ -266,6 +279,7 @@ nlu:
     - what is your name?
     - what's your name?
     - i want to know your name?
+    - do you mind telling me your name?
 - intent: thomas_where
   examples: |
     - where is Thomas?
@@ -274,6 +288,7 @@ nlu:
     - I´m looking Thomas
     - Do you know where thomas is?
     - I am looking for a man called Thomas
+    - where he is?
 - intent: question_club
   examples: |
     - Do you know what happened to this club?
@@ -308,6 +323,7 @@ nlu:
     - Can i ask you some questions about this place?
     - may I ask some questions about this club?
     - Can i ask some questions about this club?
+    - i would like to ask you some questions about your boss
 - intent: get_char
   examples: |
     - Can you go get me Calli?
@@ -320,6 +336,7 @@ nlu:
     - I want to know more about Tobias?
     - tell me about the little kid, Tobias?
     - I asked about Tobias
+    - What about Tobias?
 - intent: club_safe
   examples: |
     - Is this club a safe place?

@@ -120,6 +120,34 @@ stories:
   - action: utter_club_status
   - intent: affirmative
   - action: utter_agree_positive
+- story: Story from Conversation ID da9b9fd4359a41ea8707ff3c0f0d110d
+  steps:
+  - intent: greet
+  - action: utter_greeting
+  - intent: affirmative
+  - action: utter_check_drink
+  - intent: order_drink
+  - action: utter_drink
+  - intent: thanks
+  - action: utter_thanks_res
+  - intent: how_are_you
+  - action: utter_mood
+  - intent: question_club_desc
+  - action: utter_question_club_desc
+  - intent: club_suspicious
+  - action: utter_club_status
+  - intent: question_thomas
+  - action: utter_who_is_thomas
+  - intent: nlu_fallback
+  - action: action_default_fallback
+  - intent: question_club_age
+  - action: utter_club_age
+  - intent: club_suspicious
+  - action: utter_club_status
+  - intent: thanks
+  - action: utter_thanks_res
+  - intent: goodbye
+  - action: utter_bye
 rules:
 - rule: club age
   steps:
