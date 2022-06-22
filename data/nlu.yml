@@ -91,6 +91,7 @@ nlu:
     - hmmm maybe a beer
     - a whisky, on the rocks
     - how about a rum and coke?
+    - a rum and  coke
 - intent: question_josh
   examples: |
     - I'm asking about you, Josh
@@ -134,6 +135,9 @@ nlu:
     - always
     - hell yes
     - hell yeah my man
+    - sure
+    - I see
+    - sure am
 - intent: question_calli
   examples: |
     - Do you know something about Callie?
@@ -194,6 +198,7 @@ nlu:
   examples: |
     - who's Kaine?
     - Professor Kaine seems like quite the character, isn't he?
+    - so what can you tell me about that guy Kaine?
 - intent: utter_ask_drink
   examples: |
     - yo get me a drink
@@ -226,6 +231,7 @@ nlu:
     - hmm this is some good gin
     - hmm nice and smooth
     - hmmm speaking of pleasure, this is delicious
+    - hmm smooth
 - intent: accuse_tobias
   examples: |
     - That tobias kid, I don't trust him
@@ -301,6 +307,7 @@ nlu:
     - i want to know your name?
     - do you mind telling me your name?
     - excuse me what's your name again?
+    - so what's your name?
 - intent: thomas_where
   examples: |
     - where is Thomas?
@@ -316,6 +323,7 @@ nlu:
     - what is this place?
     - where are we?
     - What is this place?
+    - what's the deal with this club?
 - intent: question_thomas
   examples: |
     - i heard Thomas Richardson owns this place?
@@ -331,6 +339,7 @@ nlu:
     - Do you know about a man named Thomas RIchardson?
     - interesting, can you tell me about the one responsible for this club?
     - ahahah, tell me, what do you know about Thomas?
+    - I see Josh do you know Thomas Richardson?
 - intent: ask_question
   examples: |
     - Can I ask you something?
