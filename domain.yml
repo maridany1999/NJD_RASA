@@ -6,6 +6,7 @@ intents:
 - question_age
 - ask_name
 - thomas_where
+- ask_question
 - question_club
 - greet
 - goodbye
@@ -35,6 +36,7 @@ intents:
 - negative
 - question_tobias
 - question_lucy
+- get_char
 entities:
 - greet
 responses:
@@ -106,3 +108,7 @@ responses:
   - text: I am 59 years young!
   utter_name:
   - text: My name is Josh Black, bartender at your service.
+  utter_answer:
+  - text: Of course, go ahead.
+  utter_get_char:
+  - text: Oh I don't know, I'm not supposed to leave the bar during work hours.

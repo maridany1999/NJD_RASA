@@ -13,6 +13,12 @@ nlu:
     - hey
     - oi?
     - hey there
+    - Hey
+    - gi
+    - ih
+    - Good morning
+    - Hi
+    - [Hello](greet) are you an employee of the Hearh Beat club?
 - intent: goodbye
   examples: |
     - Goodbye
@@ -56,6 +62,14 @@ nlu:
     - can I get a beer?
     - a beer would be nice
     - a whisky!!
+    - a whisky please
+    - A beer
+    - i want a beer
+    - I want a beer
+    - a cup of whiskey should help
+    - whiskey if you have any
+    - A bottle of water
+    - Only water, please
 - intent: question_josh
   examples: |
     - I'm asking about you, Josh
@@ -63,6 +77,10 @@ nlu:
     - what is your story
     - who are you?
     - alright alright, and who are you again?
+    - who are you
+    - who am i talking to
+    - Who are you?
+    - And who are you?
 - intent: affirmative
   examples: |
     - It's Ok
@@ -77,6 +95,7 @@ nlu:
     - oh I see
     - ok
     - oh ok
+    - that's ok
 - intent: question_calli
   examples: |
     - Do you know something about Callie?
@@ -88,6 +107,7 @@ nlu:
     - thank you so much
     - Thank you!
     - oh thanks
+    - much appreciated
 - intent: compliment
   examples: |
     - you're cool josh
@@ -106,10 +126,14 @@ nlu:
     - I'm doing fine thanks
     - I'm feeling good
     - I'm doing great
+    - good thanks
 - intent: how_are_you
   examples: |
     - so how are you man?
     - so what's up with you?
+    - how are you ?
+    - how do you do?
+    - what you doing?
 - intent: question_kaine
   examples: |
     - who's Kaine?
@@ -120,10 +144,18 @@ nlu:
     - hmmm a rum and coke
     - a drink
     - a drink!
+    - I want a drink
+    - what can I have?
+    - Can I get a drink?
+    - get me something to drink
 - intent: question_club_desc
   examples: |
     - so what can you tell me about this club?
     - ok and Hearth Beat is?
+    - Tell me about this place
+    - Tell me about this club
+    - Have you noticed anything suspicious happening around here?
+    - Can you tell me more about this club?
 - intent: pleased
   examples: |
     - Oh, that's interesting
@@ -143,15 +175,24 @@ nlu:
 - intent: accuse_thomas
   examples: |
     - Thomas is guilty of something I just have to find what
+    - I have some questions regarding mister Richardson
 - intent: present
   examples: |
     - I'm Allen Welsch, senior detective with the central police
     - I'm detective
+    - Good Afternoon, i am detective Allen Welsh for an oficial police investigation for this club
 - intent: club_suspicious
   examples: |
     - Why is this club all burned up?
     - This club is a mess, is it always like this?
     - Is the club vibe weird or is it just me?
+    - can you tell me about what this establishment?
+    - Are you alright, this place seems like it is trying to attack me
+    - did something happened in this club?
+    - this place seems has seen better days, has something happened to it?
+    - Why are the lights off?
+    - But what happened to the club?
+    - there have been reports of suspicious activities in this club, do you know anything about it?
 - intent: mood_unhappy
   examples: |
     - I'm kind of not in the mood of talking today
@@ -174,7 +215,32 @@ nlu:
     - where is Thomas?
     - Where is Thomas?
     - Is Thomas around?
+    - I´m looking Thomas
 - intent: question_club
   examples: |
     - Do you know what happened to this club?
     - what is this place?
+    - where are we?
+    - What is this place?
+- intent: question_thomas
+  examples: |
+    - i heard Thomas Richardson owns this place?
+    - Who owns this place?
+    - can you tell me about the owner of this place?
+    - can you tell me who runs this place?
+    - I'm looking the owner
+- intent: ask_question
+  examples: |
+    - Can I ask you something?
+    - Could you answer some questions regarding this club and its recent activity
+    - can i ask some questions about this club?
+    - [hello](greet) my name is Allen Welsh, britannia city police detective, can i ask some questions about this club?
+    - may i ask some questions about this establishment?
+    - may i ask some questions about this club?
+    - can talk to you
+    - i can talk with tobias?
+- intent: get_char
+  examples: |
+    - Can you go get me Calli?
+    - can you tell me where Tobias is?
+    - Could call him?

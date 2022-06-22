@@ -36,3 +36,11 @@ rules:
   steps:
   - intent: thomas_where
   - action: utter_thomas_where
+- rule: ask
+  steps:
+  - intent: ask_question
+  - action: utter_answer
+- rule: char_loc
+  steps:
+  - intent: get_char
+  - action: utter_get_char
