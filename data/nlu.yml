@@ -24,6 +24,7 @@ nlu:
     - [Hello](greet) there
     - hi there
     - [hello](greet) buddy
+    - Hi there
 - intent: goodbye
   examples: |
     - Goodbye
@@ -92,6 +93,8 @@ nlu:
     - a whisky, on the rocks
     - how about a rum and coke?
     - a rum and  coke
+    - yes, whiskey on the rocks, quick
+    - a rum and coke
 - intent: question_josh
   examples: |
     - I'm asking about you, Josh
@@ -147,6 +150,7 @@ nlu:
     - The singer Calli seems to be very popular around here, can you tell me about her?
     - What can you tell me about Calli?
     - can you tell me more about Calli?
+    - so who's Calli
 - intent: thanks
   examples: |
     - Thank you
@@ -199,6 +203,7 @@ nlu:
     - who's Kaine?
     - Professor Kaine seems like quite the character, isn't he?
     - so what can you tell me about that guy Kaine?
+    - so who's this Kaine guy?
 - intent: utter_ask_drink
   examples: |
     - yo get me a drink
@@ -240,6 +245,8 @@ nlu:
   examples: |
     - Kaine seems suspicious
     - I think Kaine is suspicious
+    - he is not suspicious or anything?
+    - and isn't Kaine kinda weird?
 - intent: accuse_calli
   examples: |
     - I think Calli might be involved with the "power outtages"
@@ -254,6 +261,8 @@ nlu:
     - Can you tell me some information regarding Thomas?
     - Thomas seems to be behind some shady stuff
     - oh so you've never seen him doing any shady business have you?
+    - I think Thomas might be a little weird
+    - I don't trust him
 - intent: present
   examples: |
     - I'm Allen Welsch, senior detective with the central police
@@ -340,6 +349,8 @@ nlu:
     - interesting, can you tell me about the one responsible for this club?
     - ahahah, tell me, what do you know about Thomas?
     - I see Josh do you know Thomas Richardson?
+    - do you know Thomas?
+    - so what can you tell me about Thomas?
 - intent: ask_question
   examples: |
     - Can I ask you something?
@@ -389,3 +400,5 @@ nlu:
   examples: |
     - nah
     - I won't be having nothing
+    - no I can't
+    - no way
