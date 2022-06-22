@@ -95,6 +95,9 @@ nlu:
     - a rum and  coke
     - yes, whiskey on the rocks, quick
     - a rum and coke
+    - rum!
+    - yeah rum
+    - yo get me rum and coke
 - intent: question_josh
   examples: |
     - I'm asking about you, Josh
@@ -141,6 +144,7 @@ nlu:
     - sure
     - I see
     - sure am
+    - seems cool
 - intent: question_calli
   examples: |
     - Do you know something about Callie?
@@ -151,6 +155,7 @@ nlu:
     - What can you tell me about Calli?
     - can you tell me more about Calli?
     - so who's Calli
+    - so who's Calli?
 - intent: thanks
   examples: |
     - Thank you
@@ -171,6 +176,7 @@ nlu:
     - I love you man
     - you're pretty cool Josh
     - you're the best bartender this side of the channel
+    - this is good
 - intent: frustrated
   examples: |
     - not what I said dumbo
@@ -181,6 +187,8 @@ nlu:
     - ...
     - Are you deaf or something?
     - You're being slow with that drink
+    - bruuuuuh
+    - ahah not what I meant
 - intent: mood_great
   examples: |
     - I'm doing fine thanks
@@ -204,6 +212,8 @@ nlu:
     - Professor Kaine seems like quite the character, isn't he?
     - so what can you tell me about that guy Kaine?
     - so who's this Kaine guy?
+    - what about Kaine? Who is he?
+    - I don't trust Kaine
 - intent: utter_ask_drink
   examples: |
     - yo get me a drink
@@ -219,6 +229,7 @@ nlu:
     - Get me something to drink, anything is fine
     - you could get me a drink
     - a drink please
+    - can you get me a drink?
 - intent: question_club_desc
   examples: |
     - so what can you tell me about this club?
@@ -237,6 +248,10 @@ nlu:
     - hmm nice and smooth
     - hmmm speaking of pleasure, this is delicious
     - hmm smooth
+    - I'm good
+    - hmm this is good beer
+    - hmm this is good
+    - this is great
 - intent: accuse_tobias
   examples: |
     - That tobias kid, I don't trust him
@@ -247,6 +262,7 @@ nlu:
     - I think Kaine is suspicious
     - he is not suspicious or anything?
     - and isn't Kaine kinda weird?
+    - I don't trust Kaine?
 - intent: accuse_calli
   examples: |
     - I think Calli might be involved with the "power outtages"
@@ -333,6 +349,8 @@ nlu:
     - where are we?
     - What is this place?
     - what's the deal with this club?
+    - where is this?
+    - where am I?
 - intent: question_thomas
   examples: |
     - i heard Thomas Richardson owns this place?
@@ -373,6 +391,7 @@ nlu:
     - Could call him?
     - I would like to speak with the manager
     - Can you tell me where Calli is?
+    - can you go get him?
 - intent: question_tobias
   examples: |
     - I want to know more about Tobias?
@@ -402,3 +421,5 @@ nlu:
     - I won't be having nothing
     - no I can't
     - no way
+    - I can't
+    - no, I can't
