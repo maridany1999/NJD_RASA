@@ -90,6 +90,7 @@ nlu:
     - get me a whisky or something
     - hmmm maybe a beer
     - a whisky, on the rocks
+    - how about a rum and coke?
 - intent: question_josh
   examples: |
     - I'm asking about you, Josh
@@ -132,6 +133,7 @@ nlu:
     - yes sir
     - always
     - hell yes
+    - hell yeah my man
 - intent: question_calli
   examples: |
     - Do you know something about Callie?
@@ -160,6 +162,7 @@ nlu:
     - Josh nice to see you again
     - I love you man
     - you're pretty cool Josh
+    - you're the best bartender this side of the channel
 - intent: frustrated
   examples: |
     - not what I said dumbo
@@ -205,6 +208,7 @@ nlu:
     - i need something to drink
     - Get me something to drink, anything is fine
     - you could get me a drink
+    - a drink please
 - intent: question_club_desc
   examples: |
     - so what can you tell me about this club?
@@ -221,6 +225,7 @@ nlu:
     - hmm nice and cold
     - hmm this is some good gin
     - hmm nice and smooth
+    - hmmm speaking of pleasure, this is delicious
 - intent: accuse_tobias
   examples: |
     - That tobias kid, I don't trust him
