@@ -8,12 +8,19 @@ nlu:
     - heyo
     - Heyo
     - hiii
+    - Hey!
+    - hi
+    - hey
+    - oi?
+    - hey there
 - intent: goodbye
   examples: |
     - Goodbye
     - goodbye
     - bye
     - well bye then
+    - by
+    - hmm ok bye
 - intent: order_drink
   examples: |
     - A beer, please
@@ -32,10 +39,30 @@ nlu:
     - Nevermind, bring me a shot of Absinthe instead
     - Just bring me a Triple Sec
     - Hey, can I order a Triple Sec?
+    - A beer, please.
+    - a gin and tonic
+    - a beer
+    - May I get a beer?
+    - Two mojitos quick
+    - two mojitos
+    - mojitos
+    - I want beer
+    - can I get a whiskey, please?
+    - a gin
+    - a gin in a tall cup
+    - whisky on the rocks would be great
+    - a whisky on the rocks
+    - a beer please
+    - can I get a beer?
+    - a beer would be nice
+    - a whisky!!
 - intent: question_josh
   examples: |
     - I'm asking about you, Josh
     - What about you Josh, what can you tell me about yourself?
+    - what is your story
+    - who are you?
+    - alright alright, and who are you again?
 - intent: affirmative
   examples: |
     - It's Ok
@@ -47,6 +74,9 @@ nlu:
     - you know it
     - ahahah yeah I can see that
     - alright
+    - oh I see
+    - ok
+    - oh ok
 - intent: question_calli
   examples: |
     - Do you know something about Callie?
@@ -56,14 +86,21 @@ nlu:
     - thanks
     - thank you very much
     - thank you so much
+    - Thank you!
+    - oh thanks
 - intent: compliment
   examples: |
     - you're cool josh
+    - oohh Josh
+    - cool cool cool
+    - you're the best
 - intent: frustrated
   examples: |
     - not what I said dumbo
     - not what I asked but ok
     - bruh for real
+    - not what I meant josh
+    - bruh...
 - intent: mood_great
   examples: |
     - I'm doing fine thanks
@@ -72,9 +109,11 @@ nlu:
 - intent: how_are_you
   examples: |
     - so how are you man?
+    - so what's up with you?
 - intent: question_kaine
   examples: |
     - who's Kaine?
+    - Professor Kaine seems like quite the character, isn't he?
 - intent: utter_ask_drink
   examples: |
     - yo get me a drink
@@ -84,6 +123,7 @@ nlu:
 - intent: question_club_desc
   examples: |
     - so what can you tell me about this club?
+    - ok and Hearth Beat is?
 - intent: pleased
   examples: |
     - Oh, that's interesting
@@ -93,6 +133,7 @@ nlu:
 - intent: accuse_kaine
   examples: |
     - Kaine seems suspicious
+    - I think Kaine is suspicious
 - intent: accuse_calli
   examples: |
     - I think Calli might be involved with the "power outtages"
@@ -105,6 +146,7 @@ nlu:
 - intent: present
   examples: |
     - I'm Allen Welsch, senior detective with the central police
+    - I'm detective
 - intent: club_suspicious
   examples: |
     - Why is this club all burned up?
@@ -122,9 +164,17 @@ nlu:
 - intent: question_age
   examples: |
     - How old are you?
+    - and how old are you again?
 - intent: ask_name
   examples: |
     - what is your name?
+    - what's your name?
 - intent: thomas_where
   examples: |
     - where is Thomas?
+    - Where is Thomas?
+    - Is Thomas around?
+- intent: question_club
+  examples: |
+    - Do you know what happened to this club?
+    - what is this place?
